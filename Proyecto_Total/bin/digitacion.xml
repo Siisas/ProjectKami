@@ -54381,47 +54381,47 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member>
 <member name="F:digitacion.entrada._Txt_Usuario">
 <summary>
-Control Txt_Usuario.
+Txt_Usuario control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:digitacion.entrada._Txt_Password">
 <summary>
-Control Txt_Password.
+Txt_Password control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:digitacion.entrada._Btn_Login">
 <summary>
-Control Btn_Login.
+Btn_Login control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:digitacion.entrada._Pnl_Message">
 <summary>
-Control Pnl_Message.
+Pnl_Message control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:digitacion.entrada._lblmsg">
 <summary>
-Control lblmsg.
+lblmsg control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:digitacion.HelpDeskAsignacion._Head1">

@@ -19,6 +19,7 @@ Partial Public Class entrada
         Try
             Obj_Usuario.usuario = Txt_Usuario.Text
             Obj_Usuario.Passwor = Obj_G_Data.String_To_MD5(Txt_Password.Text)
+
             If Obj_Usuario.Validar_Usuario Then
                 Obj_Usuario.Consultar_Usuario()
                 Session("permisos") = Obj_Usuario
@@ -27,12 +28,14 @@ Partial Public Class entrada
                 FormsAuthentication.RedirectFromLoginPage(Txt_Usuario.Text, False)
             Else
                 Pnl_Message.CssClass = "alert alert-warning"
-                lblmsg.Text = "<span class='glyphicon glyphicon-warning-sign'></span> la información es erronea"
+                lblmsg.Text = "<span class='glyphicon glyphicon-warning-sign'></span> la información incorrecta"
                 Txt_Usuario.Focus()
             End If
+
         Catch ex As Exception
             Pnl_Message.CssClass = "alert alert-danger"
             lblmsg.Text = "<span class='glyphicon glyphicon-remove-sign'></span>" & ex.Message
         End Try
+
     End Sub
 End Class

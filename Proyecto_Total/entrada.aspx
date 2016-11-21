@@ -54,7 +54,7 @@
             </div><br />
             <div class="input-group input-group-lg">
                 <div class="input-group-addon">
-                    <span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp; Vendedor&nbsp;&nbsp;&nbsp;
+                    <span class="glyphicon glyphicon-user"></span>&nbsp;Vendedor&nbsp;&nbsp;&nbsp;
                 </div>
                 <asp:TextBox ID="Txt_Usuario"  runat="server" CssClass="form-control text-center"></asp:TextBox>
             </div>
