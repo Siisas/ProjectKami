@@ -135,6 +135,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Css2\Imagenes\FondoCafeteria2.jpg" />
+    <Content Include="Css2\Imagenes\LogoMilDelicias.JPG" />
     <Content Include="DatosCRM\Asignaciones.aspx" />
     <Content Include="DatosCRM\Asignaciongestion.aspx" />
     <Content Include="DatosCRM\AsignacionNivel3.aspx" />

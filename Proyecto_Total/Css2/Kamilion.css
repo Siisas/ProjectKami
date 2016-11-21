@@ -291,7 +291,7 @@
         -webkit-box-shadow: 0px 8px 2px -5px rgba(0,0,0,0.41);
         -moz-box-shadow: 0px 8px 2px -5px rgba(0,0,0,0.41);
         box-shadow: 0px 8px 2px -5px rgba(0,0,0,0.41);
-        background-color:#eeeeee;
+        background-color:#5f5b5b;
         margin:auto;
     }
     #Form_Login{
@@ -307,7 +307,7 @@
         font-family:FuenteKamilion;
         font-size:450%;
         margin-bottom: 20px;
-        color:#B3C556;
+        color:#4d4e4a;
         transition: 2s ease;
         text-shadow: 2px 2px 1px #000;
     }
@@ -317,19 +317,20 @@
     #Form_Login #Titulo_Login div{
         display:table-cell; 
     }
-    #Form_Login #Logo_Login{
-        width:100%;
-        background-image: url("Imagenes/Logo.png");
-        background-repeat: no-repeat;
-        background-size: 100%;
-        background-position: center;
-    }
+        #Form_Login #Logo_Login {
+            width: 100%;          
+            background-image: url('Imagenes/LogoMilDelicias.JPG'); 
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position: center;
+        }
     #Form_Login .input-group{
         margin-bottom:20px;
     }    
     #Form_Login .btn{
         margin-top:20px;
-        width:40%
+        width:40%;
+        color: white;
     }   
     #Caplock{
         visibility:hidden
