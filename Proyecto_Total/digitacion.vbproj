@@ -21,6 +21,11 @@
     <OldToolsVersion>3.5</OldToolsVersion>
     <UpgradeBackupLocation />
     <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -126,6 +131,10 @@
     <Content Include="Conexred\captconexred.aspx" />
     <Content Include="Controles\Header.ascx" />
     <Content Include="Controles\Menu.ascx" />
+    <Content Include="Css2\Imagenes\FondoCafeteria.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Css2\Imagenes\FondoCafeteria2.jpg" />
     <Content Include="DatosCRM\Asignaciones.aspx" />
     <Content Include="DatosCRM\Asignaciongestion.aspx" />
     <Content Include="DatosCRM\AsignacionNivel3.aspx" />

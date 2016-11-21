@@ -39,12 +39,13 @@
                 } else {
                     Val = false;
                     document.getElementById('Caplock').style.visibility = 'hidden';
-                };
+                }
             });
+            //#d87474
         });
     </script>
 </head>
-<body style="background-image:url(Css2/Imagenes/Fondo.png);" > 
+<body style="background-image:url(Css2/Imagenes/FondoCafeteria.jpg);" >
     <form style="padding-top:90px;" runat="server">
         <div id="Pnl_Login">
         <div id="Form_Login" >
@@ -53,7 +54,7 @@
             </div><br />
             <div class="input-group input-group-lg">
                 <div class="input-group-addon">
-                    <span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp; Usuario&nbsp;&nbsp;&nbsp;
+                    <span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp; Vendedor&nbsp;&nbsp;&nbsp;
                 </div>
                 <asp:TextBox ID="Txt_Usuario"  runat="server" CssClass="form-control text-center"></asp:TextBox>
             </div>
@@ -75,7 +76,7 @@
     </form>
     <footer class="navbar-default navbar-fixed-bottom">
         <div class="container text-center">
-            <p style="font-size:1.0vw">Copyright © Chameleon Comunicaciones Móviles SAS 2016</p>
+            <p style="font-size:1.0vw">Copyright © Cafeteria Mil Delicias 2016</p>
         </div>
     </footer>   
 </body>
